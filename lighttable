@@ -1,0 +1,15 @@
+# how to install light table
+
+cd Downloads
+
+#Extract lighttablefile
+tar -xzvf LightTableLinux64.tar.gz
+
+# Replace the lighttable below with extracted file
+$ sudo mv LightTable /opt/LightTable
+
+$ sudo ln -s /opt/LightTable/LightTable /usr/bin/lighttable
+
+#Launch lighttable by running on the terminal
+
+lighttable
