@@ -1,0 +1,12 @@
+# this installs a virtual environment for python 3 when you have 
+# python two in your system e.g. linux
+
+apt-get install python3-venv
+
+# create a virtual environme for your app e.g.
+
+python3 -m venv FlaskApp
+ 
+# then activate the folder for your app
+
+source FlaskApp/bin/activate
